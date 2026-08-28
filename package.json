@@ -1,0 +1,19 @@
+{
+  "name": "taller1-backend",
+  "version": "1.0.0",
+  "description": "Taller 1 - Promesas, APIs y manipulacion de datos (Rick and Morty API) sobre Express",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js src/characterService.js src/api.js src/normalize.js src/queries.js src/stats.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
